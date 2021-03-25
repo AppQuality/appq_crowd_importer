@@ -1,0 +1,62 @@
+# Copyright (C) 2020 AppQuality Team
+# This file is distributed under the same license as the AQ CourseQuality plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: APPQ CROWD IMPORTER 0.1\n"
+"Report-Msgid-Bugs-To: https://github.com/AppQuality/"
+"appq_crowd_importer\n"
+"Last-Translator: Luca Cannarozzo <luca.cannarozzo@pp-quality."
+"com>\n"
+"Language-Team: AppQuality Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-03-25 16:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Domain: appq-course-center\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex;_n;_nx;_n_noop;_nx_noop;"
+"esc_attr__;esc_attr_e;__withlang;esc_html_e;esc_html__;"
+"esc_html_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: views/admin_panel.php:19
+msgid "Crowd AppQuality Importer"
+msgstr ""
+
+#: views/admin_panel.php:35
+msgid "Import Form"
+msgstr ""
+
+#: views/admin_panel.php:64
+msgid "Start import"
+msgstr ""
+
+#: views/admin_panel.php:83
+msgid "Information"
+msgstr ""
+
+#: views/admin_panel.php:89
+msgid ""
+"With this form you'll be able to import an existing functional "
+"campaign with bugs.\\n A few notes:"
+msgstr ""
+
+#: views/admin_panel.php:94
+msgid ""
+"If you choose a campaign without bugs, an error will be raised"
+msgstr ""
+
+#: views/admin_panel.php:95
+msgid ""
+"This tool <strong>DOESN'T</strong> import support pages (i.e. "
+"manual and preview pages"
+msgstr ""
+
+#: views/admin_panel.php:96
+msgid ""
+"Every bug will be assigned to an existent tester (i.e. an user "
+"registered in this crowd istance)"
+msgstr ""

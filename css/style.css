@@ -1,0 +1,23 @@
+.wrap
+{
+    max-width: 1020px;
+    margin: auto;
+}
+
+.form-group
+{
+    position: relative;
+    margin-bottom: 19px;
+}
+
+label {
+    cursor: default;
+    opacity: .8;
+}
+
+label, input
+{
+    display: block;
+    margin: .5rem 0;
+    width: 100% !important;
+}
