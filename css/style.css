@@ -21,3 +21,12 @@ label, input
     margin: .5rem 0;
     width: 100% !important;
 }
+
+#wp_spinner
+{
+    float:none;
+    width:50px;
+    height:auto;
+    padding:14px 0;
+    background-position:20px 0;
+}
