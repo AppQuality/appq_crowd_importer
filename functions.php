@@ -110,6 +110,10 @@ function ci_createBugFromData($bug, $newCpId, $user_id)
 		$bug['campaign_id'] = $newCpId;
 		$bug['wp_user_id'] = $user_id;
 		$bug['reviewer'] = 0;
+		$bug['status_id'] = 2;
+		$bug['note'] = NULL;
+		$bug['is_duplicated'] = 0;
+		$bug['duplicated_of_id'] = NULL;
 
 		$res = $wpdb->insert( $wpdb->prefix . 'appq_evd_bug', $bug);
 
