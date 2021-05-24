@@ -50,7 +50,7 @@ function ci_getDataFromRedash( $query_id, $apiToken, $params )
 		$curl = curl_init();
 
 		curl_setopt_array( $curl, array(
-			CURLOPT_URL            => 'http://data.app-quality.com/api/queries/' . $query_id . '/results',
+			CURLOPT_URL            => 'https://data.app-quality.com/api/queries/' . $query_id . '/results',
 			CURLOPT_RETURNTRANSFER => true,
 			CURLOPT_ENCODING       => '',
 			CURLOPT_MAXREDIRS      => 10,
